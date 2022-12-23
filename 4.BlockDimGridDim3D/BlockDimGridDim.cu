@@ -28,7 +28,7 @@ int main(){
     dim3 block(2,2,2);
 
     // now define the gird
-    dim3 grid(numberOfThreadsAlongX/block.x,numberOfThreadsAlongY/block.y
+    dim3 grid(numberOfThreadsAlongX/block.x,numberOfThreadsAlongY/block.y,
                 numberOfThreadsAlongZ/block.z);
 
     // now call the kernal
